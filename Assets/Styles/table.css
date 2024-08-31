@@ -1,0 +1,42 @@
+body{
+    background-color:chocolate;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+caption{
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 800;
+}
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color:rgb(233, 231, 236);
+    background-color: darkcyan;
+}
+
+.width{
+    width: 500px;
+}
+
+td{
+    font-size: 18px;
+    list-style: square;
+}
+
+.removeBorder, .removeTopBorder{
+    width:500px;
+}
+
+.removeBorder{
+    border: none;
+}
+
+.removeTopBorder{
+    border-top: none;
+}
+
+th{
+    font-size: 20px;
+}

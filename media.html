@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+    <link rel="stylesheet" href="./Assets/Styles/media.css" />
+  </head>
+  <body>
+    <h1>MORE ABOUT MYSELF</h1>
+    <p>
+      The image below is a responsive image of myself showing responsiveness for
+      Phones, Tablets and Laptops <br />
+      Responsiveness for Phone: 0px - 300px <br />
+      Responsivenessfor Tablet: 301px - 600px <br />
+      Responsiveness for Laptop: 601px - above
+    </p>
+
+    <picture>
+      <source
+        media="(max-width: 300px)"
+        srcset="https://i.postimg.cc/hvFK9xzP/phone-size.jpg"
+      />
+      <source
+        media="(min-width: 301px) and (max-width: 600px)"
+        srcset="https://i.postimg.cc/52p9Z6Gn/Tablet-size.jpg"
+      />
+      <source
+        media="(min-width: 601px)"
+        srcset="https://i.postimg.cc/90GC1MZP/Laptop-size.jpg"
+      />
+      <img src="https://i.postimg.cc/90GC1MZP/Laptop-size.jpg" alt="Picture of Jah'swill" />
+    </picture>
+    <p>Here is an audio of one of my favourite songs </p>
+    <div>
+      <audio controls autoplay loop muted preload="auto"
+        src="./Assets/Audio/TitoM_Yuppe_FtBurna_Boy_SNE_EeQue_-_Tshwala_Bam_Remix_.mp3"
+      ></audio>
+    </div>
+    <p>Here is a video of the same song you just listened to.</p>
+    <video controls autoplay loop muted preload="auto" 
+      src="./Assets/Video/TitoM-Ft-SNE-Yuppe-and-Burna-Boy-Tshwala-Bam-Remix-Video-(TrendyBeatz.com).mp4"
+    ></video>
+<p>And finally here is an iframe from YouTube</p>
+"<iframe width="560" height="315" src="https://www.youtube.com/embed/k6eE3c70hgg?si=8FgCvZTjcggXwrUl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </body>
+</html>
